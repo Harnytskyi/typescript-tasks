@@ -1,0 +1,1 @@
+type First<T extends any[]> = T extends [] ? T[0] : never
